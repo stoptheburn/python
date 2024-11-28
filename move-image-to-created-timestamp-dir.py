@@ -8,11 +8,11 @@ Problem Statement:   	When I backup all the picutres from my phone onto my hdd, 
 			It makes sense to create directories with smaller no. of pic files
 Imputs:			Source Directory         	
        			Destination Directory         	
-Description:         	The script reads the metadata of images & movies files
+Description:         	The script reads the metadata of each image & movie files from the source directory
 			Grabs the DateTimeOriginal value from EXIF meta data.
 			If this info is not available, grabs the last modified timestamps of the file
 			Based on the timestamp, it creates directories in the following format
-			YYYY/YYYY-MM and moves the media file underneath the destination directory
+			YYYY/YYYY-MM and moves all the media files from the source dir underneath the destination directory
 """
 import argparse
 import os, time, platform
