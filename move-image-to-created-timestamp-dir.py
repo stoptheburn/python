@@ -4,14 +4,15 @@ Developer: 		RS
 Date Created: 		2012-01-01
 Date Modified: 		2024-11-27
 Problem Statement:   	When I backup all the picutres from my phone onto my hdd, they are all placed in the same directory
-			The photo app on the TV has difficulty listing 20,000+ picutres
+			The photo app on Samsung TV has difficulty listing 20,000+ picutres in a given directory.
+			It makes sense to create directories with smaller no. of pic files
 Imputs:			Source Directory         	
        			Destination Directory         	
 Description:         	The script reads the metadata of images & movies files
 			Grabs the DateTimeOriginal value from EXIF meta data.
 			If this info is not available, grabs the last modified timestamps of the file
-			Based on the timestamp, it creates directories in teh following format
-			YYYY/YYYY-MM and moves the media file underneach the destination directory
+			Based on the timestamp, it creates directories in the following format
+			YYYY/YYYY-MM and moves the media file underneath the destination directory
 """
 import argparse
 import os, time, platform
