@@ -138,19 +138,10 @@ def main():
             debug = True
 
     try:
-        print(arguments.src)
-        print(arguments.dest)
-
-        # Example usage
-
-        #image_path = "File Path"  # Replace with your JPEG file path
-        #image_path = arguments.src
-        #date_time_original = get_date_time_original(image_path)
-        #print(f"DateTimeOriginal: {date_time_original}")
+        DEBUG("main():  Src Dir: " + arguments.src  ) 
+        DEBUG("main(): Dest Dir: " + arguments.dest ) 
 
         # Replace with your source and destination directories
-        #source_directory = "path_to_source_directory"
-        #destination_directory = "path_to_destination_directory"
         source_directory = arguments.src
         destination_directory = arguments.dest
 
