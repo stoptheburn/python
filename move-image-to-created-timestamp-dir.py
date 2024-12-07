@@ -92,11 +92,6 @@ def organize_images_by_date(source_dir, dest_dir):
                 if date_taken:
                     ## Convert data_taken into YYYY-MM format
                     target_dir = os.path.join(dest_dir, f"{date_taken.year}", f"{date_taken.year}-{date_taken.month:02d}")
-                    #os.makedirs(target_dir, exist_ok=True)
-
-                    ## Move file to target directory
-                    #shutil.move(file_path, os.path.join(target_dir, file_name))
-                    #print(f"Moved {file_name} to {target_dir}")
 
                     ## Create directory for Year-Month and move image file there
                     move_image_from_src_to_dest_hash_dir(target_dir, file_path, file_name )
