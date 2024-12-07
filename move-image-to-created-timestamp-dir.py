@@ -151,8 +151,6 @@ def main():
        return f"An error occurred: {e}"
 
 if __name__ == '__main__':
-    #original_sigint = signal.getsignal(signal.SIGINT)
-    #signal.signal(signal.SIGINT, handle_sigint)
     main()
 
 
