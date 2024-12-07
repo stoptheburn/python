@@ -115,8 +115,8 @@ def organize_images_by_date(source_dir, dest_dir):
 
 def make_parser():
     parser = argparse.ArgumentParser(description='Parse Jpeg Metadata and hash img files.')
-    parser.add_argument('-s', '--src', help='Give result path. E.g. /Users/rakshit/Documents/pictures/')
-    parser.add_argument('-d', '--dest', help='Give result path. E.g. /Users/rakshit/Documents/pictures/')
+    parser.add_argument('-s', '--src', help='Give result path. E.g. $HOME/Documents/Pictures/src')
+    parser.add_argument('-d', '--dest', help='Give result path. E.g. $HOME/Documents/Pictures/dest')
     parser.add_argument('-D', '--debug', action='store_true', help='Enable debug mode')
     return parser
 
