@@ -2,7 +2,7 @@
 # move-image-to-created-timestamp-dir.py 
 ## Requirement:
 ###	Organize the original image files by categorizing them based on the year and month they were captured.
-##Solution: 
+## Solution: 
 ###	move-image-to-created-timestamp-dir.py  
 ####	1. Reads all files within the specified source directory.
 ####	2. Extracts the EXIF metadata from each file, specifically the DateTimeOriginal field.
