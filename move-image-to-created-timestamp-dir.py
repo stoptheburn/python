@@ -15,6 +15,9 @@ Description:         	The script reads the metadata of each image & movie files 
 			If this info is not available, grabs the last modified timestamps of the file
 			Based on the timestamp, it creates directories in the following format
 			YYYY/YYYY-MM and moves all the media files from the source dir underneath the destination directory
+Testing:		The testing was done only on MAC. YMMV.
+Instructions:		Create a copy of the original directory and use this copy as the source directory to preserve the integrity of the original files.
+			Provide a new and empty directory as the destination directory for the organized files.
 """
 import argparse
 import os, time, platform
