@@ -1,6 +1,6 @@
 # python
-#move-image-to-created-timestamp-dir.py 
-##Requirement:
+# move-image-to-created-timestamp-dir.py 
+## Requirement:
 ###	Organize the original image files by categorizing them based on the year and month they were captured.
 ##Solution: 
 ###	move-image-to-created-timestamp-dir.py  
